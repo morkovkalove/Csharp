@@ -31,12 +31,15 @@ namespace ConsoleApp2
 
                         Console.WriteLine("Your color is cyan!");
                         break;
-                    default:
+                    case "yellow":
                         Console.BackgroundColor = ConsoleColor.Yellow;
                         Console.ForegroundColor = ConsoleColor.Black;
 
                         Console.WriteLine("Your color is yellow!");
                         break;
+                        
+                    default:
+                        continue;
                 }
             }
         }
