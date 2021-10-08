@@ -8,7 +8,7 @@ namespace ConsoleApp2
         {
             var (name, age) = ("Евгения", 27);
 
-		    Console.WriteLine("Мое имя: {0}", name);
+            Console.WriteLine("Мое имя: {0}", name);
             Console.WriteLine("Мой возраст: {0}", age);
 
             Console.Write("Введите имя: ");
@@ -21,11 +21,11 @@ namespace ConsoleApp2
 
             ShowColor();
 
-	    {
+	 {
           
         static void ShowColor() {
                 
-		Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+	Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
         var color = Console.ReadLine();
 
         switch (color) {
