@@ -56,8 +56,9 @@ namespace ConsoleApp2
 
           Console.WriteLine("Your color is yellow!");
           break;
+			
         }
-	}
+     }
 	
  }
         
